@@ -38,9 +38,9 @@ public class lesson {
 
         int userInput = new Scanner(System.in).nextInt();
         if (userInput % 2 == 0) {
-            System.out.println("пошел на хуй со своими цифрами");
+            System.out.println("четное");
         } else {
-            System.out.println("как же я ненавижу всю эту ебаторию чтоб там серверная сгорела");
+            System.out.println("нечетное");
         }
 
     }
